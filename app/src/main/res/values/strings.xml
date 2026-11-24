@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">FindIt Campus</string>
+    <string name="home">Beranda</string>
+    <string name="report">Lapor</string>
+    <string name="claims">Klaim</string>
+    <string name="history">Riwayat</string>
+    <string name="account">Akun</string>
+    <string name="back">Kembali</string>
+    <string name="search">Cari nama, warna, atau lokasi</string>
+    <string name="login">Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="email">Email kampus</string>
+    <string name="password">Kata sandi</string>
+    <string name="tagline">Temukan dan kembalikan\nbarang di kampus</string>
+    <string name="report_photo">Tambah foto barang</string>
+    <string name="proof_photo">Bukti kepemilikan (opsional)</string>
+    <string name="proof_hint">Merek, goresan, isi, stiker</string>
+    <string name="secret_note">Ciri khusus barang disembunyikan. Penemu akan mencocokkannya dengan jawaban Anda.</string>
+    <string name="brand_login_heading">Login</string>
+    <string name="browse_title">Daftar Barang</string>
+    <string name="report_title">Lapor Barang</string>
+    <string name="lookup_title">Cari Barang</string>
+    <string name="browse_filter">Filter</string>
+    <string name="browse_filter_active">Filter aktif</string>
+    <string name="browse_empty">Belum ada laporan. Buat laporan pertama dari tab Lapor.</string>
+    <string name="browse_no_matches">Tidak ada barang yang cocok dengan pencarian dan filter.</string>
+    <string name="photo_selected">Foto dipilih · Ganti foto</string>
+</resources>

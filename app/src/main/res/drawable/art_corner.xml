@@ -1,0 +1,5 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="390dp" android:height="175dp" android:viewportWidth="390" android:viewportHeight="175">
+    <path android:fillColor="@color/teal" android:pathData="M0,38Q190,-12 390,34V175H0Z"/>
+    <path android:fillColor="@color/brand_circle" android:pathData="M208,175C200,91 261,43 326,49C348,52 372,60 390,69V175Z"/>
+    <path android:strokeColor="@color/brand_route" android:strokeWidth="4.5" android:strokeLineCap="round" android:pathData="M2,76L14,73M23,71L35,67M44,64L56,60M65,57L77,53M87,50L99,46M108,43L121,38M130,35L143,31M152,27L164,23M174,20L186,17M196,15L208,12M218,11L230,9M240,8L252,7M262,7L274,7M284,7L296,8M306,9L318,10M328,12L340,14M350,15L362,18M372,20L384,23"/>
+</vector>

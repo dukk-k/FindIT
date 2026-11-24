@@ -1,0 +1,31 @@
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="paper">#FFFFFF</color>
+    <color name="ink">#142329</color>
+    <color name="muted">#506171</color>
+    <color name="teal">#0B797F</color>
+    <color name="deep_teal">#006D74</color>
+    <color name="aqua">#D6F2F3</color>
+    <color name="tile">#DCF0F3</color>
+    <color name="line">#D7E8EA</color>
+    <color name="control">#28878B</color>
+    <color name="neutral">#E8EFF3</color>
+    <color name="yellow">#FFF3C1</color>
+    <color name="amber">#765000</color>
+    <color name="gold">#FFD447</color>
+    <color name="lime">#A8DC51</color>
+    <color name="cyan">#08BABB</color>
+    <color name="orange">#C04300</color>
+    <color name="peach">#FFE0C6</color>
+    <color name="red">#9A3026</color>
+    <color name="rose">#FFE0D8</color>
+    <color name="green">#225824</color>
+    <color name="mint">#CBF2BD</color>
+    <color name="blue">#AEDBFC</color>
+    <color name="brand_orange">#FF8300</color>
+    <color name="brand_circle">#0B878D</color>
+    <color name="brand_route">#B4E3E5</color>
+    <color name="transparent">#00000000</color>
+</resources>

@@ -1,0 +1,31 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <CheckBox
+        android:id="@+id/verify_proof"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:textSize="14sp"
+        android:textColor="@color/ink"
+        android:text="@string/ui_saya_telah_memeriksa_bukti_dan_mencocokkan_ciri_barang"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.widget.Button
+            android:id="@+id/reject"
+            style="@style/Action"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="6dp"
+            android:text="@string/ui_tolak"/>
+        <android.widget.Button
+            android:id="@+id/approve"
+            style="@style/Action.Primary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ui_setujui"/>
+    </LinearLayout>
+</LinearLayout>

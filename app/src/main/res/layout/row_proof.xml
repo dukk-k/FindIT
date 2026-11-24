@@ -1,0 +1,15 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="145dp"
+    android:layout_marginVertical="9dp">
+    <ImageView
+        android:id="@+id/proof_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_image"
+        android:scaleType="center"
+        android:background="@drawable/bg_tile"
+        android:clipToOutline="true"
+        android:contentDescription="@string/ui_foto_bukti_kepemilikan"/>
+</FrameLayout>

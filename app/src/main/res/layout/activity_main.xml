@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/main" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/paper" android:clipToPadding="false">
+    <View android:id="@+id/status_scrim" android:layout_width="match_parent" android:layout_height="0dp" android:background="@color/teal"/>
+    <ImageView android:id="@+id/footer_art" android:layout_width="match_parent" android:layout_height="145dp" android:layout_gravity="bottom"
+        android:src="@drawable/art_corner" android:scaleType="fitXY" android:importantForAccessibility="no" android:visibility="gone"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+        <LinearLayout android:id="@+id/header" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp"
+            android:background="@drawable/art_header" android:gravity="center_vertical" android:paddingStart="16dp" android:paddingEnd="16dp" android:visibility="gone">
+            <android.widget.ImageButton android:id="@+id/back" android:layout_width="48dp" android:layout_height="48dp"
+                android:layout_marginStart="-8dp" android:layout_marginEnd="4dp" android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_arrow" android:contentDescription="@string/back"/>
+            <TextView android:id="@+id/title" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                android:textColor="@color/white" android:textStyle="bold" android:letterSpacing="-0.032" android:textSize="27sp"/>
+        </LinearLayout>
+        <ScrollView android:id="@+id/scroll" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:fillViewport="true">
+            <FrameLayout android:id="@+id/screen_holder" android:layout_width="match_parent" android:layout_height="wrap_content" android:focusableInTouchMode="true"/>
+        </ScrollView>
+        <LinearLayout android:id="@+id/nav" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:background="@color/white" android:visibility="gone">
+            <android.widget.ImageButton android:id="@+id/nav_home" android:layout_width="0dp" android:layout_height="52dp" android:layout_weight="1"
+    android:background="?attr/selectableItemBackgroundBorderless" android:src="@drawable/ic_home" android:scaleType="center"
+    android:contentDescription="@string/home" android:tooltipText="@string/home"/>
+<android.widget.ImageButton android:id="@+id/nav_report" android:layout_width="0dp" android:layout_height="52dp" android:layout_weight="1"
+    android:background="?attr/selectableItemBackgroundBorderless" android:src="@drawable/ic_add" android:scaleType="center"
+    android:contentDescription="@string/report" android:tooltipText="@string/report"/>
+<android.widget.ImageButton android:id="@+id/nav_claims" android:layout_width="0dp" android:layout_height="52dp" android:layout_weight="1"
+    android:background="?attr/selectableItemBackgroundBorderless" android:src="@drawable/ic_shield" android:scaleType="center"
+    android:contentDescription="@string/claims" android:tooltipText="@string/claims"/>
+<android.widget.ImageButton android:id="@+id/nav_history" android:layout_width="0dp" android:layout_height="52dp" android:layout_weight="1"
+    android:background="?attr/selectableItemBackgroundBorderless" android:src="@drawable/ic_clock" android:scaleType="center"
+    android:contentDescription="@string/history" android:tooltipText="@string/history"/>
+<android.widget.ImageButton android:id="@+id/nav_account" android:layout_width="0dp" android:layout_height="52dp" android:layout_weight="1"
+    android:background="?attr/selectableItemBackgroundBorderless" android:src="@drawable/ic_person" android:scaleType="center"
+    android:contentDescription="@string/account" android:tooltipText="@string/account"/>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/splash" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:background="@color/teal" android:clickable="true" android:focusable="true">
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/art_splash" android:scaleType="fitXY" android:importantForAccessibility="no"/>
+        <ImageView android:layout_width="200dp" android:layout_height="108dp"
+    android:layout_gravity="center" android:src="@drawable/ic_brand_light" android:scaleType="fitCenter" android:contentDescription="@string/app_name"/>
+    </FrameLayout>
+</FrameLayout>
